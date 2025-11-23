@@ -4,11 +4,11 @@ class Program
 {
     static void Main()
     {
-        // Prompt 1: antal motorer
+        //antal motorer
         Console.Write("How many motors are carrying the packages? ");
         int motors = int.Parse(Console.ReadLine());
 
-        // Prompt 2: samlet vægt
+        //samlet vægt
         Console.Write("How many kg of packages do we expect? ");
         double packagesWeight = double.Parse(Console.ReadLine());
 
